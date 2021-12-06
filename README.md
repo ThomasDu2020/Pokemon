@@ -7,8 +7,8 @@ The project include totally detailed test cases including unit tests and integra
 ## Production Consideration
 However for production App, there are at least stuff below needed to consider:
 - Add Authentication and Autorisaztion;
-- Unified Http Response process, especially for the error and exception handling;
-- Considering configuration;
+- Unified Http Response processing, especially for the error and exception handling;
+- Considering configuration; Like the PokeApi and translator's Url should be configuration, instead of hard coding;
 - Decoupling the controller and Pokemon logic by using Mediator Pattern, like using MediatR;
 
 
