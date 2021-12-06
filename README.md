@@ -19,7 +19,6 @@ The project is compiled with Microsoft Visual Studio Community 2019 (Version 16.
 cd src\Pokemon
 dotnet build
 ```
-Note: Docker is also supported.
 
 # Run
 ```bash
